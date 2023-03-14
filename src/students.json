@@ -1,0 +1,31 @@
+[
+    {
+        "id" :1,
+        "name" : "nikita",
+        "age" :27,
+        "address" :"belgavi",
+        "phone" : [7685978211,8974562358]
+    },
+    {
+        "id" :2,
+        "name" : "lakshmi",
+        "age" :27,
+        "address" :"bengluru",
+        "phone" : [8978521463,8695123478]
+    },
+    {
+        "id" :3,
+        "name" : "shraddha",
+        "age" :26,
+        "address" :"pune",
+        "phone" : [9823154978,6689251478]
+    },
+    {
+        "id" :4,
+        "name" : "aahi",
+        "age" :26,
+        "address" :"mumbai",
+        "phone" : [7896584121,7985462136]
+    }
+    
+]

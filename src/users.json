@@ -1,0 +1,34 @@
+[
+    {
+        "username" : "sharvari",
+        "age" :"26",
+        "skills" :["java","HTML","SQL","JS"],
+        "occupation" :"Fullstack Developer",
+        "salary" :"35,000",
+        "photo" :"https://qph.cf2.quoracdn.net/main-qimg-0e85e19b4706df81fd42415e1de144e5-lq"
+    },
+    {
+        "username" : "nirmala",
+        "age" :"23",
+        "skills" :["java","HTML","SQL","JS"],
+        "occupation" :"java Developer",
+        "salary" :"38,000",
+        "photo" :"https://i.pinimg.com/736x/71/3d/9a/713d9ad6825373c8b3705921dddd9944.jpg"
+    },
+    {
+        "username" : "nivedita",
+        "age" :"22",
+        "skills" :["java","HTML","SQL","JS"],
+        "occupation" :"Fullstack Developer",
+        "salary" :"35,000",
+        "photo" : "https://www.entertales.com/wp-content/uploads/chhota-bheem-brave.jpg"
+    },
+    {
+        "username" : "sneha",
+        "age" :"25",
+        "skills" :["java","HTML","SQL","JS"],
+        "occupation" :"backend Developer",
+        "salary" :"30,000",
+        "photo" :"https://i.pinimg.com/736x/fb/b8/40/fbb840f6f112970c3fba7b780974a9c6.jpg"
+    }
+]
