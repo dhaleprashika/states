@@ -1,38 +1,56 @@
-// import React from "react";
-// import { Component } from "react";
-// import JSON from './users.json'
-// import Users from './Users.jsx';
+// import React, { Component } from 'react'
 
-// class App extends Component{
+// export default class App extends Component {
 
 //     constructor(){
 //         super()
-//         this.state={json : JSON}
+//         this.state={username : "prashika"}
 //     }
 
-//     render(){
-//         return(
-//         <div>
-//          <Users data={this.state.json}/>
-//         </div>
-//         )
+//      handleChange=()=>{
+//         this.setState({username: "sharvari"})
 //     }
+
+
+//   render() {
+//     return (
+//       <div>
+//         <h1>{this.state.username}</h1>
+//         <button onClick={this.handleChange}>CHANGE</button>
+//       </div>
+//     )
+//   }
 // }
-// export default App
+
+//Counter Application
 
 import React, { Component } from 'react'
-import JSON from './students.json'
-import Students from './Students.jsx';
+import './global.css'
 
 export default class App extends Component {
+
     constructor(){
         super()
-        this.state={json : JSON}
+        this.state={count:0}
+    }
+    handleIncrement=()=>{
+        this.setState({count:this.state.count+1})
+    }
+    handleDecrement=()=>{
+        this.setState({count:this.state.count-1})
+    }
+    handleReset=()=>{
+        this.setState({count:0})
     }
   render() {
     return (
-      <div>
-        <Students data1={this.state.json}/>
+      <div className='mainBlock'>
+        <h1>{this.state.count}</h1>
+        <div className='btnBlock'>
+        <button id='btn1' onClick={this.handleIncrement}>Increment</button>
+        <button id='btn2' onClick={this.handleDecrement}>Decrement</button>
+        <button id='btn3' onClick={this.handleReset}>Reset</button>
+        </div>
       </div>
     )
   }
